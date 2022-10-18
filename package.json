@@ -1,0 +1,21 @@
+{
+  "name": "mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysqldump": "^3.2.0",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
